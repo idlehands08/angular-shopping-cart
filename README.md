@@ -1,28 +1,13 @@
 # ShoppingCart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+This project was created by Geoffrey Dagamac using Angular, ExpressJS, and MongoDB for demo purposes of these tech stacks only.  
 
-## Development server
+## Instructions
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Start ExpressJS server by navigating to shopping-cart-expressjs folder through the terminal. Run `npm start`. 
+Once ExpressJS server is started, using another terminal, navigate to shopping-cart folder. Run `ng server`.
+Using a web browser, navigate to `http://localhost:4200/`. 
+The demo shopping web page should be displayed. You will see a sample product list which was fetched from a Cloud MongoDB.
+Click add on the add to cart button on any of the items and the cart component on the right will be updated. 
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# angular-shopping-cart

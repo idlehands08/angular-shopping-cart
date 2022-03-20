@@ -26,3 +26,17 @@
 .product-btn {
   font-size: 0.7em;
 }
+
+.card {
+  height: 100%;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-buttons {
+  position: absolute;
+  bottom: 1rem;
+}
